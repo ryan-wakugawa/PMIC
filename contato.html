@@ -8,12 +8,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img src="imagens1/logo.png">
-    <div class="right">
-        <a href="home.html">Home</a> |
-        <a href="quemSomos.html">Quem somos</a> |
-        <a href="contato.html">Contato</a>
-    </div>
+    {% extends 'base.html' %}
+
+    {% block conteudo %}
     <h2>Entre em contato</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suspendisse sit amet mollis nisl</p>
     <hr>
@@ -27,5 +24,6 @@
         <input type="submit" value="Enviar">
     </form>
     <p class="center"><b>Todos os direitos reservados</b></p>
+    {% endblock %}
 </body>
 </html>
