@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    {% extends 'base.html' %}
+
+    {% block conteudo %}
+    <h2>Entre em contato</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suspendisse sit amet mollis nisl</p>
+    <hr>
+    <form>
+        Seu e-mail:<br>
+        <input type="text" name="email"><br>
+        Assunto:<br>
+        <input type="text" name="assunto"><br>
+        Descrição:<br>
+        <input type="text" name="descricao"><br>
+        <input type="submit" value="Enviar">
+    </form>
+    <p class="center"><b>Todos os direitos reservados</b></p>
+    {% endblock %}
+</body>
+</html>
