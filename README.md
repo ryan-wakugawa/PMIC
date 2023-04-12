@@ -1,8 +1,12 @@
 # PMIC
- Material das aulas de PMIC
-<hr>
-<h1>Desafio 1</h1>
+ Material desnvolvido nas aulas de PMIC na FATEC São José dos Campos - Prof. Jessen Vidal
+ 
+<h2>Desafio 1</h2>
 Desenvolvimento de um site de uma faculdade fictícia utilizando HTML e CSS
-<hr>
-<h1>Desafio 2</h1>
-Implementação do site desenvolvido no Desafio 1 no ambiente virtual Flask
+<ul>
+<li>Entrega dia 17/03/2023 ✅</li></ul>
+
+<h2>Desafio 2</h2>
+Implementação do site desenvolvido no Desafio 1 no ambiente virtual Flask<br>
+<ul>
+<li>Entrega dia 14/04/2023 ✅</li></ul>
