@@ -1,13 +1,13 @@
 body{
-    background-image: url(imagens1/fundo2.png);
+    background-image: url(../img/fundo2.png);
     margin: 25px auto;
     max-width: 900px;
 }
 p{
     text-align: justify;
 }
-#bg{
-    background-image: url(imagens1/fundo.png);
+#fundo{
+    background-image: url(../img/fundo.png);
 }
 .right {
     float: right;
@@ -23,7 +23,7 @@ p{
 }
 #capa{
     text-align: center;
-    padding-top: 78px;
+    padding-top: 18px;
     max-width: 600px;
     max-height: 400px;
 }

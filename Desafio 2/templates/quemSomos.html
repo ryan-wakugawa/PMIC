@@ -1,19 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quem somos</title>
-    <link rel="stylesheet" href="styles.css">
+    {% extends 'base.html' %}
+
+    {% block header %}
+    <title>Quem somos?</title>
+    {% endblock %}
 </head>
 <body>
-    <img src="imagens1/logo.png">
-    <div class="right">
-        <a href="home.html">Home</a> |
-        <a href="quemSomos.html">Quem somos</a> |
-        <a href="contato.html">Contato</a>
-    </div>
+    {% block conteudo %}
     <h1>Quem somos</h1>
     <p>Lorem <b>ipsum dolor</b> sit <i>amet</i>, consectetur adipiscing elit. Suspendisse sit amet mollis nisl. Aliquam sit amet diam ac quam dignissim lobortis vel ac sapien. Proin placerat cursus risus. Duis blandit varius hendrerit. Vivamus sed placerat turpis, vel viverra neque. Duis at tempor magna, sit amet gravida purus. Nulla facilisi. Vivamus accumsan risus vitae risus blandit venenatis. Sed sed nisl tempor, tincidunt elit sit amet, facilisis neque. Donec rutrum mauris odio, gravida vestibulum nulla cursus vitae. Cras vestibulum lectus sed augue viverra ultrices ac nec lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum cursus elit, vitae placerat lectus laoreet a.</p>
     <h1>5 motivos para estudar</h1>
@@ -28,5 +23,6 @@
     <h1>Objetivos</h1>
     <p>Lorem <b>ipsum dolor</b> sit <i>amet</i>, consectetur adipiscing elit. Suspendisse sit amet mollis nisl. Aliquam sit amet diam ac quam dignissim lobortis vel ac sapien. Proin placerat cursus risus. Duis blandit varius hendrerit. Vivamus sed placerat turpis, vel viverra neque. Duis at tempor magna, sit amet gravida purus. Nulla facilisi. Vivamus accumsan risus vitae risus blandit venenatis. Sed sed nisl tempor, tincidunt elit sit amet, facilisis neque. Donec rutrum mauris odio, gravida vestibulum nulla cursus vitae. Cras vestibulum lectus sed augue viverra ultrices ac nec lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum cursus elit, vitae placerat lectus laoreet a.</p>
     <p class="center"><b>Todos os direitos reservados</b></p>
+    {% endblock %}
 </body>
 </html>

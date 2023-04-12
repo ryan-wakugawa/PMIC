@@ -2,16 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="normalize.css">
-    <title></title>
+    <link rel="stylesheet" href="../static/css/normalize.css">
+    <link rel="stylesheet" href="../static/css/styles.css">
+
+    {% block header %}
+
+    {% endblock %}
 </head>
-<body>
-    <img src="imagens1/logo.png">
+<body {% block id %}{%endblock %}>
+    <img src="../static/img/logo.png" alt="Logo">
     <div class="right">
-        <a href="home.html">Home</a> |
-        <a href="quemSomos.html">Quem somos</a> |
-        <a href="contato.html">Contato</a>
+        <a href="/">Home</a> |
+        <a href="/quemsomos">Quem somos</a> |
+        <a href="/contato">Contato</a>
     </div>
 
     {% block conteudo %}
