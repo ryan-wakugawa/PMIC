@@ -10,3 +10,8 @@ Desenvolvimento de um site de uma faculdade fictícia utilizando HTML e CSS
 Implementação do site desenvolvido no Desafio 1 no ambiente virtual Flask<br>
 <ul>
 <li>Entrega dia 14/04/2023 ✅</li></ul>
+
+<h2>Desafio 3</h2>
+Conexão da página contatos com um banco de dados SQL<br>
+<ul>
+<li>Entrega dia 16/05/2023 ⚙</li></ul>
