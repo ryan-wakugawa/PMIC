@@ -1,0 +1,29 @@
+body{
+    background-image: url(../img/fundo2.png);
+    margin: 25px auto;
+    max-width: 900px;
+}
+p{
+    text-align: justify;
+}
+#fundo{
+    background-image: url(../img/fundo.png);
+}
+.right {
+    float: right;
+    display: block;
+}
+.left {
+    float: left;
+    display: block;
+}
+.center{
+    text-align: center;
+    display: block;
+}
+#capa{
+    text-align: center;
+    padding-top: 18px;
+    max-width: 600px;
+    max-height: 400px;
+}

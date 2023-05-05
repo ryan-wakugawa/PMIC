@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% extends 'base.html' %}
+
+    {% block header %}
+    <title>HOME</title>
+    {% endblock %}
+</head>
+<body {% block id %}id="fundo"{% endblock %}>
+    {% block conteudo %}
+    <div id="capa">
+    <img src="../static/img/capa.png" alt="Capa">
+    </div>
+    <div>
+    <h2>Sobre a universidade</h2>
+    <p>Lorem, <b>ipsum dolor</b> sit amet consectetur adipisicing elit. Doloribus sit illo, vel excepturi ratione atque nulla libero nisi. Doloremque sequi labore dicta esse delectus. Corrupti perferendis minus iste hic ipsa! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum fugiat ipsa odio dignissimos quaerat minus sunt suscipit quasi soluta eveniet accusantium minima eos, eius exercitationem rerum voluptate libero? Facilis, ea?</p>
+    <p>Lorem <b>ipsum, dolor</b> sit amet consectetur adipisicing elit. Laboriosam perspiciatis aliquid quas, voluptatibus rem laborum vero fuga. Praesentium, magni nihil maxime quis, est maiores amet eum voluptas cumque, vitae facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum omnis numquam natus hic molestiae nulla in, excepturi nobis officia repellat doloribus quidem vitae atque perferendis cum aspernatur libero ut ab!</p>
+    <p class="center"><b>Todos os direitos reservados</b></p>
+    </div>
+    {% endblock %}
+</body>
+</html>

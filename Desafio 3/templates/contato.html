@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    {% extends 'base.html' %}
+
+    {% block header%}
+    <title>Contato</title>
+    {% endblock %}
+</head>
+<body>
+    {% block conteudo %}
+    <h2>Entre em contato</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suspendisse sit amet mollis nisl</p>
+    <hr>
+    <form>
+        Seu e-mail:<br>
+        <input type="text" name="email"><br>
+        Assunto:<br>
+        <input type="text" name="assunto"><br>
+        Descrição:<br>
+        <input type="text" name="descricao"><br>
+        <input type="submit" value="Enviar">
+    </form>
+    <p class="center"><b>Todos os direitos reservados</b></p>
+    {% endblock %}
+</body>
+</html>
