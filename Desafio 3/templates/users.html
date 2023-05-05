@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <thead>
+        <tr>
+            <th>E-mail</th>
+            <th>Assunto</th>
+            <th>Detalhes</th>
+        </tr>
+    </thead>
+
+    {% for user in userDetails %}
+
+    <tbody>
+        <tr>
+            <td>{{user[0]}}</td>
+            <td>{{user[1]}}</td>
+            <td>{{user[2]}}</td>
+        </tr>
+    </tbody>
+
+    {% endfor %}
+</body>
+</html>
