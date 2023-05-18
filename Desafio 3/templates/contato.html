@@ -12,13 +12,16 @@
     <h2>Entre em contato</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suspendisse sit amet mollis nisl</p>
     <hr>
-    <form>
+    <form method="post" action="/contato">
         Seu e-mail:<br>
-        <input type="text" name="email"><br>
+        <input type="text" name="email" required><br>
+
         Assunto:<br>
-        <input type="text" name="assunto"><br>
+        <input type="text" name="assunto" required><br>
+
         Descrição:<br>
-        <input type="text" name="descricao"><br>
+        <input type="text" name="descricao" required><br>
+        
         <input type="submit" value="Enviar">
     </form>
     <p class="center"><b>Todos os direitos reservados</b></p>

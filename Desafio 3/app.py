@@ -3,12 +3,11 @@ from flask import Flask, render_template, request, url_for, jsonify
 from flask_mysqldb import MySQL
 
 app = Flask(__name__)
-Bootstrap(app)
 
 # conexão com o banco de dados
 app.config['MYSQL_Host'] = 'localhost' # 127.0.0.1
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = '1234'
+app.config['MYSQL_PASSWORD'] = ''
 app.config['MYSQL_DB'] = 'contatos'
 
 mysql = MySQL(app)
@@ -22,7 +21,7 @@ def home():
 def quem_somos():
     return render_template("quemsomos.html")
 
-@app.route('/contatos', methods=['GET', 'POST'])
+@app.route('/contato', methods=['GET', 'POST'])
 def contatos():
     if request.method == "POST":
         email = request.form['email']
@@ -37,8 +36,9 @@ def contatos():
         cur.close()
 
         return 'sucesso'
-    return render_template('contatos.html')
+    return render_template('contato.html')
 
+# rota usuários para listar todos os usuário no banco de dados.
 @app.route('/users')
 def users():
     cur = mysql.connection.cursor()

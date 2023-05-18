@@ -7,24 +7,27 @@
     <title>Document</title>
 </head>
 <body>
-    <thead>
-        <tr>
-            <th>E-mail</th>
-            <th>Assunto</th>
-            <th>Detalhes</th>
-        </tr>
-    </thead>
+    <table>
+        <thead>
+            <tr>
+                <th>E-mail</th>
+                <th>Assunto</th>
+                <th>Detalhes</th>
+            </tr>
+        </thead>
 
-    {% for user in userDetails %}
+        {% for user in userDetails %}
 
-    <tbody>
-        <tr>
-            <td>{{user[0]}}</td>
-            <td>{{user[1]}}</td>
-            <td>{{user[2]}}</td>
-        </tr>
-    </tbody>
+        <tbody>
+            <tr>
+                <td>{{user[0]}}</td>
+                <td>{{user[1]}}</td>
+                <td>{{user[2]}}</td>
+            </tr>
+        </tbody>
 
-    {% endfor %}
+        {% endfor %}
+    </table>
+    
 </body>
 </html>
