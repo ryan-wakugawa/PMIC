@@ -23,7 +23,17 @@ p{
 }
 #capa{
     text-align: center;
-    padding-top: 18px;
     max-width: 600px;
     max-height: 400px;
+}
+
+/* TABELA USUARIOS */
+table, th, td {
+    border: 1px solid black;
+  }
+table{
+    margin: auto;
+}
+td,th{
+    padding: 0px 15px;
 }
