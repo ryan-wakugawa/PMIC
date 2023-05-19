@@ -14,4 +14,4 @@ Implementação do site desenvolvido no Desafio 1 no ambiente virtual Flask<br>
 <h2>Desafio 3</h2>
 Conexão da página contatos com um banco de dados SQL<br>
 <ul>
-<li>Entrega dia 16/05/2023 ⚙</li></ul>
+<li>Entrega dia 19/05/2023 ✅</li></ul>
