@@ -19,7 +19,7 @@ def home():
 
 @app.route("/quemsomos")
 def quem_somos():
-    return render_template("quemsomos.html")
+    return render_template("quemSomos.html")
 
 @app.route('/contato', methods=['GET', 'POST'])
 def contatos():
