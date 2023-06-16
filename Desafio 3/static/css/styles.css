@@ -1,7 +1,8 @@
 body{
     background-image: url(../img/fundo2.png);
-    margin: 25px auto;
+    margin: auto;
     max-width: 900px;
+    justify-content: center;
 }
 p{
     text-align: justify;
@@ -22,7 +23,9 @@ p{
     display: block;
 }
 #capa{
+    display: block;
     text-align: center;
+    padding-top: 20px;
     max-width: 600px;
     max-height: 400px;
 }
